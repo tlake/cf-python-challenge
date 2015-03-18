@@ -1,0 +1,15 @@
+# ignore all virtualenv stuff (exists in part1 and part3)
+part1-library/env/*
+part3-django/env/*
+
+# ignore all undo files made by vim
+*.un~
+
+# ignore swap
+*.swp
+
+# ignore .pyc files
+*.pyc
+
+# ignore the __pycache__ folder
+# __pycache__
