@@ -11,5 +11,6 @@ part3-django/env/*
 # ignore .pyc files
 *.pyc
 
-# ignore the __pycache__ folder
-# __pycache__
+# ignore the /served/ folder, where static files will be generated at every
+# start
+part3-django/cf_project/served/*
